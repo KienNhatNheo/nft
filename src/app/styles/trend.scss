@@ -1,0 +1,14 @@
+.trend {
+   padding:20px 195px;
+   .trendContent{
+    display: flex;
+   }
+}
+.trendImageItem {
+    width: 32.5%;
+    margin-right: 2.5%;
+    margin-top: 2rem;
+}
+.trendImageItem:last-child {
+    margin-right: 0;
+}

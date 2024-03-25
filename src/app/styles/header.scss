@@ -1,0 +1,45 @@
+$_bg-black: #3B3B3B;
+$_color-primary: #A259FF;
+.header-text {
+    color:red;
+}
+.header-navbar {
+    display: flex;
+    background-color: $_bg-black;
+    width: 1457px;
+    justify-content: space-between;
+    margin:0;
+}
+.header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .tabLink {
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: "Work Sans";
+        margin-left:2rem;
+    }
+    Button {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+.logoName {
+    font-family: monospace;
+    color: white;
+    font-size: 18px;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap:14px;
+    img {
+        gap:10px;
+        margin-left: 2rem;
+    }
+}
+.headerButton {
+    margin: 10px;
+}
